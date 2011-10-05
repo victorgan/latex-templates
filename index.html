@@ -1,14 +1,67 @@
----
-layout: frontpage
-title: "LaTeX Templates and Styles"
-date: 2011-10-05 13:35
-comments: true
-sharing: true
-footer: true
-sidebar: false
----
 
-<section>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>LaTeX Templates and Styles - Kieran Healy</title>
+  <meta name="author" content="Kieran Healy">
+
+  
+  <meta name="description" content="          Some Custom LaTeX Layouts and Styles	  	  This is a collection of so simple configuration files I use to typeset my papers. I use these i...">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://kieranhealy.org//latex-custom-kjh.html">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Kieran Healy" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+
+</head>
+
+<body   class="no-sidebar"   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Kieran Healy</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:kieranhealy.org/" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+<ul class="main-navigation">
+  <li><a href="http://kieranhealy.org/">About</a></li>
+  <li><a href="/publications.html">Publications</a></li>
+  <li><a href="/teaching.html">Teaching</a></li>
+  <li><a href="/resources.html">Resources</a></li>
+  <li><a href="/blog">Blog</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <article role="article">
+<div>
+  <section>
         <h2><a href="http://github.com/kjhealy/latex-custom-kjh">Some Custom LaTeX Layouts and Styles</a></h2>
 
 	  <p>
@@ -17,7 +70,7 @@ sidebar: false
 	  <ul>
 	    <li>Some page layout styles for articles typeset using LaTeX and the Memoir class, with Chicago-style author-year refernces and bibliographies created using <a href="http://www.ctan.org/tex-archive/help/Catalogue/entries/biblatex.html">BibLaTeX</a>, <a href="http://biblatex-biber.sourceforge.net/">Biber</a> and the <a href="http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-chicago/">BibLaTeX-Chicago package</a>, with an option for presenting source code listings (from, e.g., Sweave files) using the <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/minted/">Minted</a> package and <a href="http://pygments.org/">Pygments</a>.
 	    </li>
-            <li>Two convenience style files for use with org-mode and the Emacs Starter Kit, using org-mode's ability to export from <code>.org</code> to <code>.tex</code>. If you set up Emacs using my version of the Starter Kit, and you use org-mode, then you can use <code>article-pdflatex.org</code> or <code>article-xelatex.org</code> files as templates for your articles. (These are in the <code>/templates</code> directory.) Using them, you can hit <code>C-c C-e d</code> to generate a PDF that uses the article styles in <code>latex-custom</code> and that is created via pdfLaTeX or XeLaTeX, as you prefer. The style files take options to turn on support for the <code>minted</code> code-listings package (both pdfLaTeX and XeLaTeX) and to use the Minion Pro package (pdfLaTeX).</li>
+            <li>Two convenience style files for use with org-mode and the Emacs Starter Kit, using org-mode&#8217;s ability to export from <code>.org</code> to <code>.tex</code>. If you set up Emacs using my version of the Starter Kit, and you use org-mode, then you can use <code>article-pdflatex.org</code> or <code>article-xelatex.org</code> files as templates for your articles. (These are in the <code>/templates</code> directory.) Using them, you can hit <code>C-c C-e d</code> to generate a PDF that uses the article styles in <code>latex-custom</code> and that is created via pdfLaTeX or XeLaTeX, as you prefer. The style files take options to turn on support for the <code>minted</code> code-listings package (both pdfLaTeX and XeLaTeX) and to use the Minion Pro package (pdfLaTeX).</li>
 	    <li>A style file for typesetting <a href="http://en.wikipedia.org/wiki/Sweave">Sweave</a> output using the Listings package.
 	    </li>
             <li>A replacement for using <code>Sweave.sty</code> when writing sweave documents in R/LaTeX (<code>Sweavel.sty</code>). This allows you to directly style output in Sweave files, rather than having to use the listings style file above.</li>
@@ -25,7 +78,7 @@ sidebar: false
 	    </li>
 	    <li>A template for a Syllabus, using the layouts &amp; format files here.
 	    </li>
-            <li>A template for a Letter (e.g., a letter of recommendation), incorporating an institutional letterhead. (This comes from an original by <a href="http://tedsider.org/"Ted Sider</a>.)
+            <li>A template for a Letter (e.g., a letter of recommendation), incorporating an institutional letterhead. (This comes from an original by <a href="http://tedsider.org/">Ted Sider</a>.)
 	  </ul>
 	  <p>
 	    To make use of these files you will need a modern TeX installation, such as <a href="http://www.tug.org/mactex/">MacTeX</a>. The templates and styles variously require some or all of the following packages and applications:
@@ -67,3 +120,54 @@ sidebar: false
         </p>
 
 </section>
+
+  
+    <footer>
+
+    </footer>
+  
+</article>
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2011 - Kieran Healy -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-600543-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  
+
+  
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+</body>
+</html>
